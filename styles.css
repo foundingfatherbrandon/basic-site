@@ -12,16 +12,22 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url("logo.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    margin: 0;
+    background-color: #0B1939;
+}
+
+.site-logo {
+    display: block;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto 1.5rem auto;
 }
  
 /* Navigation Styles */
 header {
-    padding: 1rem 0;
+    background-color: transparent;
+    padding: 3rem 0;
+    text-align: center;
 }
  
 nav ul {
