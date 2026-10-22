@@ -1,41 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Founding Fathers IT | Services</title>
-  <link rel="icon" type="image/png" href="/favicon.png"/>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Services · Founding Fathers IT</title>
+<meta name="description" content="Founding Fathers IT: managed IT, cybersecurity and network support for Reno businesses. Call (775) 200-9902.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital@0;1&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <img src="logo-transparent.png" alt="Founding Fathers IT Logo" class="site-logo">
-    <nav>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+<header>
+  <div class="wrap nav">
+    <a class="mark" href="index.html" aria-label="Founding Fathers IT, home"><b>Founding Fathers</b><span>IT</span></a>
+    <nav aria-label="Main">
+      <a href="services.html" aria-current="page">Services</a>
+      <a href="industries.html">Industries</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="call" href="tel:+17752009902">(775) 200-9902</a>
     </nav>
-    <h1>Our Services</h1>
-  </header>
+  </div>
+  <div class="wrap mobile-nav" aria-label="Pages">
+    <a href="index.html">Home</a>
+    <a href="services.html" aria-current="page">Services</a>
+    <a href="industries.html">Industries</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
 
-  <main>
-    <h1>Our Services</h1>
-    <p>We offer a full range of IT services tailored to meet your business needs:</p>
-    <ul>
-      <li>💻 Managed IT Services</li>
-      <li>🔒 Cybersecurity Solutions</li>
-      <li>🌐 Network Design & Support</li>
-      <li>☁️ Cloud Integration</li>
-      <li>🧩 Data Backup & Recovery</li>
-    </ul>
-  </main>
+<main id="top">
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Services</span>
+    <h1>Everything your office needs to <em>keep working.</em></h1>
+    <p>Five services that cover the technology a small business runs on. Take one, or let us handle all of it under a single agreement.</p>
+  </div>
+</section>
 
-  <footer>
-    <p>&copy; Founded 2026</p>
-  </footer>
+<section class="block">
+  <div class="wrap">
+    <div class="ledger">
+      <div class="svc" id="managed-it">
+        <h3>Managed IT</h3>
+        <div class="body"><p>Your team gets one number and one email for every IT problem. We answer, open a ticket, and work it until it's fixed, remotely when we can and on site when we can't.</p><p>Behind the scenes we keep every computer patched and updated, set up new hires before their first day, and shut off access the day someone leaves.</p></div>
+        <div class="inc"><h4>Includes</h4><ul><li>Help desk by phone and email</li><li>Windows and Mac updates</li><li>New-hire setup and offboarding</li><li>Software installs</li><li>Printers and peripherals</li><li>Remote and on-site support</li></ul></div>
+      </div>
+      <div class="svc" id="cybersecurity">
+        <h3>Cybersecurity</h3>
+        <div class="body"><p>Most small-business breaches start with a reused password or a phishing email. We close those doors first: a company password manager, multi-factor sign-in on every account that supports it, and endpoint protection on every machine.</p><p>We also review who has access to what, so former employees and old vendors aren't still holding keys.</p></div>
+        <div class="inc"><h4>Includes</h4><ul><li>1Password for your whole team</li><li>Multi-factor sign-in</li><li>Endpoint protection</li><li>Account and access reviews</li><li>Phishing awareness for staff</li></ul></div>
+      </div>
+      <div class="svc" id="network">
+        <h3>Network design & support</h3>
+        <div class="body"><p>We design and install business-grade routers, firewalls, switches and Wi-Fi, then document everything so nothing lives only in someone's head.</p><p>Every site we manage is monitored. When a link drops or a device goes offline, we get the alert and start working on it, often before you notice.</p></div>
+        <div class="inc"><h4>Includes</h4><ul><li>Routers and firewalls</li><li>Business Wi-Fi</li><li>Switching and cabling</li><li>Site-to-site VPN</li><li>24/7 network monitoring</li><li>IP and device documentation</li></ul></div>
+      </div>
+      <div class="svc" id="cloud">
+        <h3>Cloud integration</h3>
+        <div class="body"><p>We move your email and files to Microsoft 365, set up shared folders that make sense, and make sure everyone can get to their work from the office, the truck, or home.</p><p>We manage the licenses and settings afterward, so you're not paying for seats nobody uses.</p></div>
+        <div class="inc"><h4>Includes</h4><ul><li>Microsoft 365 setup</li><li>Email migration</li><li>SharePoint and OneDrive</li><li>License management</li><li>Domain and DNS</li></ul></div>
+      </div>
+      <div class="svc" id="backup">
+        <h3>Data backup & recovery</h3>
+        <div class="body"><p>We back up your computers, servers and cloud data, so a dead drive or a deleted folder doesn't mean lost work.</p><p>If a drive dies or ransomware hits, we already have the plan to get you running again.</p></div>
+        <div class="inc"><h4>Includes</h4><ul><li>Computer and server backup</li><li>Microsoft 365 backup</li><li>File recovery</li><li>Disaster recovery planning</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Want to know which services fit your business?</h2>
+    <div class="ctas">
+      <a class="btn primary" href="tel:+17752009902">Call <span class="num">(775) 200-9902</span></a>
+      <a class="btn ghost" href="contact.html">Contact options</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Founding Fathers IT · Reno, NV</span>
+    <nav aria-label="Footer"><a href="index.html">Home</a> <a href="services.html">Services</a> <a href="industries.html">Industries</a> <a href="about.html">About</a> <a href="contact.html">Contact</a></nav>
+    <span class="mono">(775) 200-9902 · Tickets@foundingfathersit.com</span>
+  </div>
+</footer>
+<script src="site.js"></script>
 </body>
 </html>
- 
